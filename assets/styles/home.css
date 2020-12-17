@@ -1,14 +1,19 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Berkshire Swash', cursive;
+    font-family: courier new;
+    
+}
+
+body{
+  margin: 0;
+  padding: 0;
+
 }
 
 #mainpage {
-    display: block;
     background-color: black;
     width: 100%;
-    height:1500px;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -18,12 +23,12 @@
   height: 150px;
   width: 100%;
   margin: 0;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: courier new;
   text-align: center;
   padding-top: 2%;
   padding-bottom: 0;
   /*border: 20px solid #9fa9ab;*/
-  border: 20px solid #cb4b14;
+  border: 20px solid #0066b2;
  
 }
 .clear:after {
@@ -57,7 +62,7 @@
 }
 
 .active {
-  background-color: #8eba9d;
+  background-color: #0066b2;
   color: white;
 }
 
@@ -71,14 +76,47 @@
 }
 
 #myCarousel {
-  display: block;
+  box-sizing: border-box;
+  position: relative;
   float: left;
-  margin-top: 2%;
-  width: 100%;
- border-top: 10px solid #cb4b14;
-  border-bottom: 10px solid #cb4b14;
+  margin-top: .5%;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  transform: translateX(10%);
+  width: 80%;
+ border-top: 10px solid #0066b2;
+  border-bottom: 10px solid #0066b2;
 
 }
+
+.btn-green{
+  box-sizing: border-box;
+  height: 400px;
+  width: 300px;
+  position: relative;
+  margin: 5px 150px;
+  font-size: 16px;
+}
+
+.btn-green img{
+  margin-bottom: 20px;
+  height: 200px;
+  width: 250px;
+}
+ p{
+   color: black;
+  font-size: 16px;
+  font-family: courier new;
+ }
+
+ .btn-green span{
+
+  border: 1px solid #0066b2;
+  padding: 7px 7px;
+  background: #0066b2;
+ }
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -129,12 +167,12 @@ img {
   height: auto;
   width: 100%;
   margin: 0;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: courier new;
   text-align: center;
   padding-top: 2%;
   padding-bottom: 0;
   /*border: 20px solid #9fa9ab;*/
-  border: 20px solid #cb4b14;
+  border: 15px solid #cb4b14;
  
 }
 
@@ -143,7 +181,7 @@ img {
 img {
   width: 100%;
   height: 300px;
-}*/
+}
 
 .clear:after {
     content: "";
@@ -152,65 +190,34 @@ img {
 }
 
 .row {
-  display: block;
-  float: left;
+   float: left;
   margin-top: 10%;
   margin: 5%;
   color: white;
   text-align: center;
+  align-content: center;
 
  }
- ul {
-  color: black;
-  font-size: 25px;
-  font-family: 'Berkshire Swash', cursive;
- }
- 
  
 
-
-/*#cardmain {
-  display: block;
-  float: left;
-  width: 20%;
-  margin-top: 150%; 
-  margin-left:2%;
-  border: 50px;
-  position: relative;
-}
-.p-2 {
-  margin-left: 2%;
-  text-align: center;
-  flex-direction: row;
-  float: left;
-}*/
+ 
 
 /*Start of my Footer*/
 #footer {
   float: left;
   position: absolute;
   margin-top:-3%;
- /* transform: translateY(100%);*/
-  background-color:  #6b6263;
+  background-color: #333 ;
   width: 100%;
   height: 80px;
   padding-top: 20px;
   text-align: center;
   color: white;
   margin-bottom: 0;
-  border-top: 5px solid #cb4b14;
+  border-top: 5px solid #0066b2;
 }
 /*End of my Footer*/
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+
+
+

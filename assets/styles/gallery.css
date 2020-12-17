@@ -72,7 +72,19 @@
   margin-bottom: 10px;
 }
 
+.btn-green{
+  box-sizing: border-box;
+  height: 300px;
+  width: 300px;
+  margin: 5px 10px;
+  font-size: 16px;
+}
 
+.btn-green img{
+  margin-bottom: 20px;
+  height: 200px;
+  width: 250px;
+}
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -198,31 +210,47 @@ img {
 /*End of Gallery*/
 
 /*Start of my Footer*/
+.clear:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.row {
+
+  float: left;
+  margin: 0;
+  padding: 0;
+  color: white;
+  position: relative;
+  
+ }
+ .container .row .col-3{
+
+  margin: 0;
+  padding: 0;
+  position: relative;
+  float: left;
+ }
+ 
+
+ 
+
+/*Start of my Footer*/
 #footer {
   float: left;
   position: relative;
   margin-top:-3%;
- /* transform: translateY(100%);*/
-   background-color:  #6b6263;
+  background-color: #333 ;
   width: 100%;
   height: 80px;
   padding-top: 20px;
-  text-align: center;
   color: white;
   margin-bottom: 0;
-  border-top: 5px solid #cb4b14;
+  border-top: 5px solid #0066b2;
 }
 /*End of my Footer*/
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+
+/*End of my Footer*/
+
